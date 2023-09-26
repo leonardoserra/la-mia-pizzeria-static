@@ -39,239 +39,188 @@
 
         @*MAIN*@
         <main>
-        @*CARDS*@
-        <div class="album py-5 bg-body-tertiary">
-            <div class="container">
-                <div class="row my-3">
-                    <div class="col-12">
-                        <button class="btn btn-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasManagePizza" aria-controls="offcanvasManagePizza">
+            <div class="container mt-5">
+            @*BUTTON OFFCANVAS*@
+            <div class="row pt-3">
+                <div class="col-12 ">
+                    <button class="btn btn-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasManagePizza" aria-controls="offcanvasManagePizza">
                         Gestisci la tua pagina
                     </button>
-                    </div>
-                </div>
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                    @*MODELLO DI CARD IN LAVORAZIONE*@
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="~/img/pizza_1.jpg" class="card-img-top object-fit-cover" width="100%" height="225" role="img" focusable="false" alt="La vera Pizza" />
-                            <div class="card-body">
-                                <h3 class="card-text">PIZZA BUONISSIMA</h3>
-                                <p class="card-text">piena di sapore BUONO</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group ">
-                                        <button type="button" class="btn text-dark btn-warning btn-sm btn-outline-secondary">MODIFICA</button>
-                                        <button type="button" class="btn text-light btn-danger btn-sm btn-outline-secondary">ELIMINA</button>
-                                    </div>
-                                </div>
-                                <div class="card-item fw-semibold pt-2 text-body-secondary bg-white px-0">
-                                    Prezzo: 8€
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="~/img/pizza_2.jpg" class="card-img-top object-fit-cover" width="100%" height="225" role="img" focusable="false" alt="La vera Pizza" />
-                            <div class="card-body">
-                                <h3 class="card-text">PIZZA BUONISSIMA</h3>
-                                <p class="card-text">piena di sapore BUONO</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group ">
-                                        <button type="button" class="btn text-dark btn-warning btn-sm btn-outline-secondary">MODIFICA</button>
-                                        <button type="button" class="btn text-light btn-danger btn-sm btn-outline-secondary">ELIMINA</button>
-                                    </div>
-                                </div>
-                                <div class="card-item fw-semibold pt-2 text-body-secondary bg-white px-0">
-                                    Prezzo: 8€
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="~/img/pizza_3.jpg" class="card-img-top object-fit-cover" width="100%" height="225" role="img" focusable="false" alt="La vera Pizza" />
-                            <div class="card-body">
-                                <h3 class="card-text">PIZZA BUONISSIMA</h3>
-                                <p class="card-text">piena di sapore BUONO</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group ">
-                                        <button type="button" class="btn text-dark btn-warning btn-sm btn-outline-secondary">MODIFICA</button>
-                                        <button type="button" class="btn text-light btn-danger btn-sm btn-outline-secondary">ELIMINA</button>
-                                    </div>
-                                </div>
-                                <div class="card-item fw-semibold pt-2 text-body-secondary bg-white px-0">
-                                    Prezzo: 8€
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="~/img/pizza_4.jpg" class="card-img-top object-fit-cover" width="100%" height="225" role="img" focusable="false" alt="La vera Pizza" />
-                            <div class="card-body">
-                                <h3 class="card-text">PIZZA BUONISSIMA</h3>
-                                <p class="card-text">piena di sapore BUONO</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group ">
-                                        <button type="button" class="btn text-dark btn-warning btn-sm btn-outline-secondary">MODIFICA</button>
-                                        <button type="button" class="btn text-light btn-danger btn-sm btn-outline-secondary">ELIMINA</button>
-                                    </div>
-                                </div>
-                                <div class="card-item fw-semibold pt-2 text-body-secondary bg-white px-0">
-                                    Prezzo: 8€
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="~/img/pizza_5.jpg" class="card-img-top object-fit-cover" width="100%" height="225" role="img" focusable="false" alt="La vera Pizza" />
-                            <div class="card-body">
-                                <h3 class="card-text">PIZZA BUONISSIMA</h3>
-                                <p class="card-text">piena di sapore BUONO</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group ">
-                                        <button type="button" class="btn text-dark btn-warning btn-sm btn-outline-secondary">MODIFICA</button>
-                                        <button type="button" class="btn text-light btn-danger btn-sm btn-outline-secondary">ELIMINA</button>
-                                    </div>
-                                </div>
-                                <div class="card-item fw-semibold pt-2 text-body-secondary bg-white px-0">
-                                    Prezzo: 8€
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="~/img/pizza_6.jpg" class="card-img-top object-fit-cover" width="100%" height="225" role="img" focusable="false" alt="La vera Pizza" />
-                            <div class="card-body">
-                                <h3 class="card-text">PIZZA BUONISSIMA</h3>
-                                <p class="card-text">piena di sapore BUONO</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group ">
-                                        <button type="button" class="btn text-dark btn-warning btn-sm btn-outline-secondary">MODIFICA</button>
-                                        <button type="button" class="btn text-light btn-danger btn-sm btn-outline-secondary">ELIMINA</button>
-                                    </div>
-                                </div>
-                                <div class="card-item fw-semibold pt-2 text-body-secondary bg-white px-0">
-                                    Prezzo: 8€
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="~/img/pizza_7.jpg" class="card-img-top object-fit-cover" width="100%" height="225" role="img" focusable="false" alt="La vera Pizza" />
-                            <div class="card-body">
-                                <h3 class="card-text">PIZZA BUONISSIMA</h3>
-                                <p class="card-text">piena di sapore BUONO</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group ">
-                                        <button type="button" class="btn text-dark btn-warning btn-sm btn-outline-secondary">MODIFICA</button>
-                                        <button type="button" class="btn text-light btn-danger btn-sm btn-outline-secondary">ELIMINA</button>
-                                    </div>
-                                </div>
-                                <div class="card-item fw-semibold pt-2 text-body-secondary bg-white px-0">
-                                    Prezzo: 8€
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="~/img/pizza_8.jpg" class="card-img-top object-fit-cover" width="100%" height="225" role="img" focusable="false" alt="La vera Pizza" />
-                            <div class="card-body">
-                                <h3 class="card-text">PIZZA BUONISSIMA</h3>
-                                <p class="card-text">piena di sapore BUONO</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group ">
-                                        <button type="button" class="btn text-dark btn-warning btn-sm btn-outline-secondary">MODIFICA</button>
-                                        <button type="button" class="btn text-light btn-danger btn-sm btn-outline-secondary">ELIMINA</button>
-                                    </div>
-                                </div>
-                                <div class="card-item fw-semibold pt-2 text-body-secondary bg-white px-0">
-                                    Prezzo: 8€
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="~/img/pizza_9.jpg" class="card-img-top object-fit-cover" width="100%" height="225" role="img" focusable="false" alt="La vera Pizza" />
-                            <div class="card-body">
-                                <h3 class="card-text">PIZZA BUONISSIMA</h3>
-                                <p class="card-text">piena di sapore BUONO</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group ">
-                                        <button type="button" class="btn text-dark btn-warning btn-sm btn-outline-secondary">MODIFICA</button>
-                                        <button type="button" class="btn text-light btn-danger btn-sm btn-outline-secondary">ELIMINA</button>
-                                    </div>
-                                </div>
-                                <div class="card-item fw-semibold pt-2 text-body-secondary bg-white px-0">
-                                    Prezzo: 8€
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="~/img/pizza_10.jpg" class="card-img-top object-fit-cover" width="100%" height="225" role="img" focusable="false" alt="La vera Pizza" />
-                            <div class="card-body">
-                                <h3 class="card-text">PIZZA BUONISSIMA</h3>
-                                <p class="card-text">piena di sapore BUONO</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group ">
-                                        <button type="button" class="btn text-dark btn-warning btn-sm btn-outline-secondary">MODIFICA</button>
-                                        <button type="button" class="btn text-light btn-danger btn-sm btn-outline-secondary">ELIMINA</button>
-                                    </div>
-                                </div>
-                                <div class="card-item fw-semibold pt-2 text-body-secondary bg-white px-0">
-                                    Prezzo: 8€
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="~/img/pizza_11.jpg" class="card-img-top object-fit-cover" width="100%" height="225" role="img" focusable="false" alt="La vera Pizza" />
-                            <div class="card-body">
-                                <h3 class="card-text">PIZZA BUONISSIMA</h3>
-                                <p class="card-text">piena di sapore BUONO</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group ">
-                                        <button type="button" class="btn text-dark btn-warning btn-sm btn-outline-secondary">MODIFICA</button>
-                                        <button type="button" class="btn text-light btn-danger btn-sm btn-outline-secondary">ELIMINA</button>
-                                    </div>
-                                </div>
-                                <div class="card-item fw-semibold pt-2 text-body-secondary bg-white px-0">
-                                    Prezzo: 8€
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="~/img/pizza_12.jpg" class="card-img-top object-fit-cover" width="100%" height="225" role="img" focusable="false" alt="La vera Pizza" />
-                            <div class="card-body">
-                                <h3 class="card-text">PIZZA BUONISSIMA</h3>
-                                <p class="card-text">piena di sapore BUONO</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group ">
-                                        <button type="button" class="btn text-dark btn-warning btn-sm btn-outline-secondary">MODIFICA</button>
-                                        <button type="button" class="btn text-light btn-danger btn-sm btn-outline-secondary">ELIMINA</button>
-                                    </div>
-                                </div>
-                                <div class="card-item fw-semibold pt-2 text-body-secondary bg-white px-0">
-                                    Prezzo: 8€
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
-        </div>
+            @*TABELLA*@
+                <div class="row">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="col-2" scope="col">Immagine</th>
+                                <th scope="col">Pietanza</th>
+                                <th scope="col">Descrizione</th>
+                                <th scope="col">Modifica</th>
+                                <th scope="col">Elimina</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img height="70"  src="~/img/pizza_1.jpg" class="card-img-top object-fit-cover"   role="img" focusable="false" alt="La vera Pizza" />
+                                </td>
 
-       
+                                <td>Margheritina</td>
+                                <td>Buona Buona anzi buonissima!</td>
+                                <td><button type="button" class="btn text-dark btn-warning btn-sm btn-outline-secondary">MODIFICA</button></td>
+                                <td>
+                                    <input type="checkbox" id="delete1" name="delete1" value="pizza1">
+                                    
+                                </td>
+                            </tr>
+                            <tr >
+                                <td>
+                                    <img height="70" src="~/img/pizza_2.jpg" class="card-img-top object-fit-cover" role="img" focusable="false" alt="La vera Pizza" />
+                                </td>
+
+                                <td>Margheritina</td>
+                                <td>Buona Buona anzi buonissima!</td>
+                                <td><button type="button" class="btn text-dark btn-warning btn-sm btn-outline-secondary">MODIFICA</button></td>
+                                <td>
+                                    <input type="checkbox" id="delete1" name="delete1" value="pizza1">
+
+                                </td>
+                            </tr>
+                            <tr >
+                                <td>
+                                    <img height="70" src="~/img/pizza_3.jpg" class="card-img-top object-fit-cover" role="img" focusable="false" alt="La vera Pizza" />
+                                </td>
+
+                                <td>Margheritina</td>
+                                <td>Buona Buona anzi buonissima!</td>
+                                <td><button type="button" class="btn text-dark btn-warning btn-sm btn-outline-secondary">MODIFICA</button></td>
+                                <td>
+                                    <input type="checkbox" id="delete1" name="delete1" value="pizza1">
+
+                                </td>
+                            </tr>
+                            <tr >
+                                <td>
+                                    <img height="70" src="~/img/pizza_4.jpg" class="card-img-top object-fit-cover" role="img" focusable="false" alt="La vera Pizza" />
+                                </td>
+
+                                <td>Margheritina</td>
+                                <td>Buona Buona anzi buonissima!</td>
+                                <td><button type="button" class="btn text-dark btn-warning btn-sm btn-outline-secondary">MODIFICA</button></td>
+                                <td>
+                                    <input type="checkbox" id="delete1" name="delete1" value="pizza1">
+
+                                </td>
+                            </tr>
+                        <tr >
+                            <td>
+                                <img height="70" src="~/img/pizza_5.jpg" class="card-img-top object-fit-cover" role="img" focusable="false" alt="La vera Pizza" />
+                            </td>
+
+                            <td>Margheritina</td>
+                            <td>Buona Buona anzi buonissima!</td>
+                            <td><button type="button" class="btn text-dark btn-warning btn-sm btn-outline-secondary">MODIFICA</button></td>
+                            <td>
+                                <input type="checkbox" id="delete1" name="delete1" value="pizza1">
+
+                            </td>
+                        </tr>
+                        <tr >
+                            <td>
+                                <img height="70" src="~/img/pizza_6.jpg" class="card-img-top object-fit-cover" role="img" focusable="false" alt="La vera Pizza" />
+                            </td>
+
+                            <td>Margheritina</td>
+                            <td>Buona Buona anzi buonissima!</td>
+                            <td><button type="button" class="btn text-dark btn-warning btn-sm btn-outline-secondary">MODIFICA</button></td>
+                            <td>
+                                <input type="checkbox" id="delete1" name="delete1" value="pizza1">
+
+                            </td>
+                        </tr>
+                        <tr >
+                            <td>
+                                <img height="70" src="~/img/pizza_7.jpg" class="card-img-top object-fit-cover" role="img" focusable="false" alt="La vera Pizza" />
+                            </td>
+
+                            <td>Margheritina</td>
+                            <td>Buona Buona anzi buonissima!</td>
+                            <td><button type="button" class="btn text-dark btn-warning btn-sm btn-outline-secondary">MODIFICA</button></td>
+                            <td>
+                                <input type="checkbox" id="delete1" name="delete1" value="pizza1">
+
+                            </td>
+                        </tr>
+                        <tr >
+                            <td>
+                                <img height="70" src="~/img/pizza_8.jpg" class="card-img-top object-fit-cover" role="img" focusable="false" alt="La vera Pizza" />
+                            </td>
+
+                            <td>Margheritina</td>
+                            <td>Buona Buona anzi buonissima!</td>
+                            <td><button type="button" class="btn text-dark btn-warning btn-sm btn-outline-secondary">MODIFICA</button></td>
+                            <td>
+                                <input type="checkbox" id="delete1" name="delete1" value="pizza1">
+
+                            </td>
+                        </tr>
+                        <tr >
+                            <td>
+                                <img height="70" src="~/img/pizza_9.jpg" class="card-img-top object-fit-cover" role="img" focusable="false" alt="La vera Pizza" />
+                            </td>
+
+                            <td>Margheritina</td>
+                            <td>Buona Buona anzi buonissima!</td>
+                            <td><button type="button" class="btn text-dark btn-warning btn-sm btn-outline-secondary">MODIFICA</button></td>
+                            <td>
+                                <input type="checkbox" id="delete1" name="delete1" value="pizza1">
+
+                            </td>
+                        </tr>
+                        <tr >
+                            <td>
+                                <img height="70" src="~/img/pizza_10.jpg" class="card-img-top object-fit-cover" role="img" focusable="false" alt="La vera Pizza" />
+                            </td>
+
+                            <td>Margheritina</td>
+                            <td>Buona Buona anzi buonissima!</td>
+                            <td><button type="button" class="btn text-dark btn-warning btn-sm btn-outline-secondary">MODIFICA</button></td>
+                            <td>
+                                <input type="checkbox" id="delete1" name="delete1" value="pizza1">
+
+                            </td>
+                        </tr>
+                        <tr >
+                            <td>
+                                <img height="70" src="~/img/pizza_11.jpg" class="card-img-top object-fit-cover" role="img" focusable="false" alt="La vera Pizza" />
+                            </td>
+
+                            <td>Margheritina</td>
+                            <td>Buona Buona anzi buonissima!</td>
+                            <td><button type="button" class="btn text-dark btn-warning btn-sm btn-outline-secondary">MODIFICA</button></td>
+                            <td>
+                                <input type="checkbox" id="delete1" name="delete1" value="pizza1">
+
+                            </td>
+                        </tr>
+                        <tr >
+                            <td>
+                                <img height="70" src="~/img/pizza_12.jpg" class="card-img-top object-fit-cover" role="img" focusable="false" alt="La vera Pizza" />
+                            </td>
+
+                            <td>Margheritina</td>
+                            <td>Buona Buona anzi buonissima!</td>
+                            <td><button type="button" class="btn text-dark btn-warning btn-sm btn-outline-secondary">MODIFICA</button></td>
+                            <td>
+                                <input type="checkbox" id="delete1" name="delete1" value="pizza1">
+
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         @*OFFCANVAS GESTIONE PAGINA*@
         <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasManagePizza" aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-header">
